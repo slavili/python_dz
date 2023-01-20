@@ -11,9 +11,9 @@ def Factorials(n, result = 1):
 
 n = int(input('Введите целое число: '));
 
-listFactorials = [];
+listFactorials = [Factorials(i) for i in range(1, n+1)];
 
-for i in range(1, n+1):
-    listFactorials.append(Factorials(i));
+#for i in range(1, n+1):
+#    listFactorials.append(Factorials(i));
 
 print(listFactorials);
