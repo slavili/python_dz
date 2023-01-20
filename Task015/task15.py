@@ -9,9 +9,9 @@ def Fibonachi(k = 8, first = -21, second = 13):
             return first;
         return Fibonachi(k - 1, second, first+second)
 
-userList = []
+userList = [Fibonachi(i) for i in range(1, 20)]
 
-for i in range(1, 18):
-    userList.append(Fibonachi(i))
+#for i in range(1, 18):
+#    userList.append(Fibonachi(i))
 
 print(userList);
