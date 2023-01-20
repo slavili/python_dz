@@ -2,9 +2,13 @@
 Задайте последовательность чисел. Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности.
 """
 
-userList = [5,2,3,4, 10, 6]
-userSet = set();
-for i in userList:
-    userSet.add(i)
+userList = [5,2,3,4, 10, 6, 6]
+
+#userSet = set();
+#for i in userList:
+#    userSet.add(i)
+
+userSet = list(set(userList));
+
 print(f"Исходная последовательность: {userList}");
 print(f"Неповторяющаяся последовательность: {userSet}")
