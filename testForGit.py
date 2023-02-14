@@ -2,6 +2,11 @@
 function main1(){
 //line of code from slavili
 //line of code from slavili
+//line of code from slavili
+//line of code from slavili
+//line of code from slavili
+//line of code from slavili
+//line of code from slavili
 }
 //for user2
 function main2(){
